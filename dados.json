@@ -1,25 +1,108 @@
 {
-    "temperatura":[
-    {"time":"17/12 5h","value":27},
-    {"time":"17/12 8h","value":50},
-    {"time":"17/12 4h","value":26},
-    {"time":"17/12 3h","value":25},
-    {"time":"17/12 5h","value":24},
-    {"time":"17/12 1h","value":27},
-    {"time":"17/12 2h","value":27},
-    {"time":"17/12 7h","value":29},
-    {"time":"17/12 9h","value":30}
-],
-
-"temperatura2":[
-    {"time":"17/12 5h","value":27},
-    {"time":"17/12 8h","value":47},
-    {"time":"17/12 4h","value":26},
-    {"time":"17/12 3h","value":25},
-    {"time":"17/12 5h","value":24},
-    {"time":"17/12 1h","value":12},
-    {"time":"17/12 2h","value":27},
-    {"time":"17/12 7h","value":59},
-    {"time":"17/12 9h","value":30}
-]
+  "temperatura": [
+    {
+      "time": "17/12 5h",
+      "value": 27,
+      "id": "ec8d"
+    },
+    {
+      "time": "17/12 8h",
+      "value": 50,
+      "id": "9c5b"
+    },
+    {
+      "time": "17/12 4h",
+      "value": 26,
+      "id": "1d3e"
+    },
+    {
+      "time": "17/12 3h",
+      "value": 25,
+      "id": "a773"
+    },
+    {
+      "time": "17/12 5h",
+      "value": 24,
+      "id": "941c"
+    },
+    {
+      "time": "17/12 1h",
+      "value": 27,
+      "id": "4947"
+    },
+    {
+      "time": "17/12 2h",
+      "value": 27,
+      "id": "208b"
+    },
+    {
+      "time": "17/12 7h",
+      "value": 29,
+      "id": "5388"
+    },
+    {
+      "time": "17/12 9h",
+      "value": 30,
+      "id": "27be"
+    }
+  ],
+  "temperatura2": [
+    {
+      "time": "17/12 5h",
+      "value": 27,
+      "id": "8cbb"
+    },
+    {
+      "time": "17/12 8h",
+      "value": 47,
+      "id": "0593"
+    },
+    {
+      "time": "17/12 4h",
+      "value": 26,
+      "id": "4789"
+    },
+    {
+      "time": "17/12 3h",
+      "value": 25,
+      "id": "17b0"
+    },
+    {
+      "time": "17/12 5h",
+      "value": 24,
+      "id": "96d0"
+    },
+    {
+      "time": "17/12 1h",
+      "value": 12,
+      "id": "3da0"
+    },
+    {
+      "time": "17/12 2h",
+      "value": 27,
+      "id": "11b2"
+    },
+    {
+      "time": "17/12 7h",
+      "value": 59,
+      "id": "b15b"
+    },
+    {
+      "time": "17/12 9h",
+      "value": 30,
+      "id": "e304"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "0898",
+      "usuario": "teste",
+      "senha": "123456"
+    },
+    {
+      "id": "eb4c",
+      "usuario": "teste2",
+      "senha": "12345"
+    }
+  ]
 }
