@@ -1,0 +1,10 @@
+.footer {
+    background-color: #333; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px 0; /* Adiciona espaçamento */
+    width: 100%;
+    margin-top: auto; /* Garante que o footer seja empurrado para o final */
+    box-sizing: border-box; /* Garante que o padding seja incluído no cálculo de largura */
+  }
+  

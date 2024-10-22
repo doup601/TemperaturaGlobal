@@ -49,22 +49,22 @@
   "temperatura2": [
     {
       "time": "17/12 5h",
-      "value": 27,
+      "value": 12,
       "id": "8cbb"
     },
     {
       "time": "17/12 8h",
-      "value": 47,
+      "value": 27,
       "id": "0593"
     },
     {
       "time": "17/12 4h",
-      "value": 26,
+      "value": 20,
       "id": "4789"
     },
     {
       "time": "17/12 3h",
-      "value": 25,
+      "value": 47,
       "id": "17b0"
     },
     {
@@ -91,6 +91,53 @@
       "time": "17/12 9h",
       "value": 30,
       "id": "e304"
+    }
+  ],
+  "temperatura3": [
+    {
+      "time": "17/12 5h",
+      "value": 12,
+      "id": "ec8d"
+    },
+    {
+      "time": "17/12 8h",
+      "value": 23,
+      "id": "9c5b"
+    },
+    {
+      "time": "17/12 4h",
+      "value": 50,
+      "id": "1d3e"
+    },
+    {
+      "time": "17/12 3h",
+      "value": 45,
+      "id": "a773"
+    },
+    {
+      "time": "17/12 5h",
+      "value": 24,
+      "id": "941c"
+    },
+    {
+      "time": "17/12 1h",
+      "value": 12,
+      "id": "4947"
+    },
+    {
+      "time": "17/12 2h",
+      "value": 8,
+      "id": "208b"
+    },
+    {
+      "time": "17/12 7h",
+      "value": 29,
+      "id": "5388"
+    },
+    {
+      "time": "17/12 9h",
+      "value": 30,
+      "id": "27be"
     }
   ],
   "usuarios": [

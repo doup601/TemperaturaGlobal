@@ -1,0 +1,323 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    padding-top: 60px; 
+  }
+  
+  body {
+    font-family: var(--font-body);
+    color: var(--dark-color);
+    background-color: var(--secondary-color);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin: 40px 0;
+  }
+  
+  .hero {
+    height: 100vh;
+    background: url('https://colegiopalavraviva.com.br/wp-content/uploads/2019/08/queimada.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .hero h1 {
+    font-family: var(--font-heading);
+    font-size: 48px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Efeito escuro no fundo do texto */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h1, h2, p {
+    margin-bottom: 20px;
+    text-align: center; /* Centraliza todos os títulos e parágrafos */
+  }
+  
+  .card {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .container .card {
+    flex: 1 1 calc(33.333% - 40px);
+    margin: 20px;
+    box-sizing: border-box;
+  }
+  
+  .background-section {
+    background-image: url('link-da-imagem-2.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+  }
+  
+  .background-section h2 {
+    color: white;
+    text-align: center;
+  }
+  
+  @media(max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  
+  html, body {
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+
+  :root {
+    --primary-color: #4CAF50; 
+    --secondary-color: #f9f9f9; 
+    --dark-color: #333;
+    --light-color: #f1f1f1;
+    --font-heading: 'Poppins', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-body);
+    color: var(--dark-color);
+    background-color: var(--secondary-color);
+  }
+  
+
+  button, .btn {
+    padding: 12px 24px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover, .btn:hover {
+    background-color: #388e3c; 
+  }
+  
+
+  nav {
+    background-color: var(--primary-color);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  @media(max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      display: none; 
+    }
+    nav ul.active {
+      display: block; 
+    }
+  }
+  
+
+  .hero {
+    height: 100vh;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .hero h1 {
+    font-family: var(--font-heading);
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in;
+  }
+  
+  @keyframes slideUp {
+    from { transform: translateY(50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  
+  .slide-up {
+    animation: slideUp 1s ease-out;
+  }
+  
+
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+
+  html, body {
+    height: 100%; /* Garante que a página ocupe toda a altura da tela */
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1; /* O conteúdo principal ocupa o espaço disponível */
+  }
+  
+  
+  html, body {
+    height: 100%; /* Garante que a página ocupe toda a altura da tela */
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o root ocupe pelo menos toda a altura da janela */
+  }
+  
+  main {
+    flex: 1; /* Faz o conteúdo principal ocupar o espaço disponível */
+  }
+  
+ 
+
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: var(--primary-color);
+    outline: none;
+  }
+  
+  html, body {
+    height: 100%; /* A página ocupa toda a altura */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Previne rolagem horizontal indesejada */
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Faz o corpo ocupar 100% da altura da janela */
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  main {
+    flex: 1; /* O conteúdo principal ocupa o espaço disponível */
+    padding: 100px; /* Dá algum espaçamento ao conteúdo */
+  }
+  
+  .footer {
+    
+    color: #000000; /* Cor do texto */
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    margin-top: auto; /* Empurra o footer para o final */
+    box-sizing: border-box; /* Certifica que padding e borda não "estiquem" */
+    border: none; /* Remove qualquer borda indesejada */
+  }
+  
+  .titulo-login{
+    color: #fff;
+  }
+  .text1{
+    color: #fff;
+  }

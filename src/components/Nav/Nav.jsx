@@ -7,15 +7,17 @@ function BasicExample() {
   const isLoggedIn = sessionStorage.getItem("usuario");
 
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" fixed="top" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="/">Temperatura Brasil</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto">  {/* Alinha esses itens à esquerda */}
             <Nav.Link href="/graficos">Gráficos</Nav.Link>
             <Nav.Link href="/sobre">Sobre</Nav.Link>
             {isLoggedIn && <Nav.Link href="/adicionar-grafico">Adicionar Gráfico</Nav.Link>}
+          </Nav>
+          <Nav className="ms-auto">  {/* Alinha o dropdown de usuário à direita */}
             <NavDropdown title="Usuário" id="basic-nav-dropdown">
               <NavDropdown.Item href="/login">Entrar</NavDropdown.Item>
               <NavDropdown.Item href="/cadastro">Cadastre-se</NavDropdown.Item>

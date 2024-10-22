@@ -1,5 +1,6 @@
 import { useRef, useState, useEffect } from "react"
 import { useNavigate, Link } from "react-router-dom";
+import '../../../src/index.css'
 
 
 const Login=()=>{

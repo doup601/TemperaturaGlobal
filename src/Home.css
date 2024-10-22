@@ -1,0 +1,52 @@
+.image-container {
+    display: inline-flex; 
+    justify-content: center; 
+    background-color: black; 
+    padding: 0; 
+    border-radius: 5px; 
+    margin-left: 400px;
+}
+
+.image {
+    width: 300px; 
+    height: 250px; 
+    object-fit: cover;
+    margin: 5px;
+}
+
+body {
+    margin: 0; /* Remove margens padrão do body */
+    padding: 0; /* Remove padding padrão do body */
+    height: 100vh; /* Faz o body ocupar toda a altura da janela */
+    background-image: url('../../../public/Imagem2.jpg'); /* Caminho para a imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    display: flex; /* Alinha o conteúdo com flexbox */
+    flex-direction: column; /* Organiza os itens em coluna */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+}
+
+h1{
+    color: #fff;
+    
+}
+.p1{
+    color: #fff;
+    display: inline-flex; 
+    justify-content: center; 
+    background-color: black; 
+    padding: 0; 
+    border-radius: 5px; 
+    margin-left: 200px;
+}
+p{
+    color: #fff;
+    display: inline-flex; 
+    justify-content: center; 
+    background-color: black; 
+    padding: 0; 
+    border-radius: 5px; 
+    margin-left: 500px;
+}

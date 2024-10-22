@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import SensorChart from '../../components/Sensor/Sensor'; // Reaproveitando o componente de gráfico
+import '../../../src/adicionargrafico.css'
 
 const AdicionarGrafico = () => {
   const [cidade, setCidade] = useState('');
@@ -31,7 +32,7 @@ const AdicionarGrafico = () => {
       </form>
       {data.length > 0 && (
         <div>
-          <h2>Gráfico de {cidade}</h2>
+          <h2 className='agh2'>Gráfico de {cidade}</h2>
           <SensorChart data={data} />
         </div>
       )}
